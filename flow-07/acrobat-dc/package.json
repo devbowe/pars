@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "sass": "sass --watch assets/css/main.scss assets/css/main.css --style compressed"
+    }
+}

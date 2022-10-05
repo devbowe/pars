@@ -1,0 +1,36 @@
+/* Variables */
+:root {
+    --ff-primary: "Gotham", sans-serif;
+}
+
+/* Setting Selection Colors */
+::selection {
+    background-color: rgb(214, 77, 77);
+    color: #fff;
+}
+
+html {
+    font-size: 93.75%;
+
+    @media (min-width: 45em) {
+        font-size: 100%;
+    }
+
+    @media (min-width: 100em) {
+        font-size: 107%;
+    }
+}
+
+body {
+    font-family: var(--ff-primary);
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 90%;
+    max-width: 75em;
+    margin-inline: auto;
+}

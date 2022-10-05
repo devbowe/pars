@@ -1,0 +1,85 @@
+#tkp {
+    .tkp {
+        min-height: 100vh;
+        display: grid;
+
+        padding-block: var(--spacing);
+        background-color: $blue;
+        color: $white;
+        overflow: hidden;
+
+        @media (min-width: 45em) {
+            background-image: url("../images/tkp__bg.png");
+            background-repeat: no-repeat;
+            background-position: bottom right;
+
+            background-size: 70%;
+        }
+
+        @media (min-width: 77em) {
+            background-size: contain;
+            background-position-x: 40vw;
+        }
+
+        &__container {
+            position: relative;
+
+            h1 {
+                line-height: 1.2;
+                margin-top: 1rem;
+                font-size: 2.25rem;
+                margin-bottom: 1.75rem;
+                max-width: 12ch;
+            }
+
+            p {
+                max-width: 34ch;
+            }
+
+            h2 {
+                margin-block: 1.5rem;
+                font-size: 1.35rem;
+            }
+        }
+
+        .brands {
+            margin-bottom: var(--spacing);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+
+            img {
+                max-width: 10rem;
+            }
+
+            @media (min-width: 60em) {
+                img {
+                    width: 14rem;
+                }
+            }
+        }
+    }
+
+    .wpp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        background-color: $white;
+        color: $blue;
+        max-width: max-content;
+        padding: 0.75rem 1.75rem;
+        border-radius: 9999px;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        margin-top: 2rem;
+        min-width: 16rem;
+
+        &:hover,
+        &:focus {
+            filter: brightness(0.9);
+        }
+    }
+}

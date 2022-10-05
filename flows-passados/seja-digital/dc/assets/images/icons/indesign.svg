@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_160" data-name="Retângulo 160" width="114" height="114" transform="translate(740 7526)" fill="#f5f5f5"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_61" data-name="Grupo de máscara 61" transform="translate(-740 -7526)" clip-path="url(#clip-path)">
+    <g id="Grupo_1501" data-name="Grupo 1501" transform="translate(762 7549)">
+      <g id="Surfaces" transform="translate(0 0)">
+        <g id="Publishing_Surface" data-name="Publishing Surface">
+          <g id="Outline_no_shadow" data-name="Outline no shadow">
+            <path id="Caminho_7373" data-name="Caminho 7373" d="M20.459,4H65.9A12.449,12.449,0,0,1,78.36,16.459V60.141A12.449,12.449,0,0,1,65.9,72.6H20.459A12.449,12.449,0,0,1,8,60.141V16.459A12.449,12.449,0,0,1,20.459,4Z" transform="translate(-8 -4)" fill="#49021f"/>
+          </g>
+        </g>
+      </g>
+      <g id="Outlined_Mnemonics_Logos" data-name="Outlined Mnemonics Logos" transform="translate(19.026 15.035)">
+        <g id="Id">
+          <path id="Caminho_7374" data-name="Caminho 7374" d="M79.438,64.27V94.349c0,.322-.147.469-.41.469H73.281c-.264,0-.381-.147-.381-.469V64.27c0-.264.147-.381.41-.381h5.717a.331.331,0,0,1,.381.293A.108.108,0,0,1,79.438,64.27Z" transform="translate(-72.9 -61.363)" fill="#f36"/>
+          <path id="Caminho_7375" data-name="Caminho 7375" d="M123.04,89.208a14.575,14.575,0,0,1-6.3-1.319A10.221,10.221,0,0,1,112.31,83.9a12.685,12.685,0,0,1-1.612-6.684,12.04,12.04,0,0,1,1.612-6.186,12.174,12.174,0,0,1,4.661-4.544,15,15,0,0,1,7.417-1.7,5.233,5.233,0,0,1,.616.029c.264.029.557.029.909.059V55.611c0-.205.088-.322.293-.322h5.951a.263.263,0,0,1,.293.205V83.462c0,.528.029,1.114.059,1.759.059.616.088,1.2.117,1.7a.476.476,0,0,1-.293.469,22.39,22.39,0,0,1-4.779,1.407A25.6,25.6,0,0,1,123.04,89.208Zm2.873-5.863v-12.9a7.5,7.5,0,0,0-.792-.147c-.322-.029-.645-.059-.967-.059a7.227,7.227,0,0,0-3.313.762,6.572,6.572,0,0,0-2.492,2.169,6.5,6.5,0,0,0-.967,3.723,8.17,8.17,0,0,0,.5,3.02A5.73,5.73,0,0,0,119.2,82a5.065,5.065,0,0,0,1.994,1.173,7.674,7.674,0,0,0,2.433.381c.44,0,.85-.029,1.231-.059A2.5,2.5,0,0,0,125.913,83.345Z" transform="translate(-99.616 -55.284)" fill="#f36"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

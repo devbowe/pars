@@ -1,0 +1,395 @@
+@use "reset";
+
+$white: #ffffff;
+$lightGray: #f2f2f2;
+$gray: #5f5f5f;
+$black: #000b1d;
+
+$lightBlue: #64607d;
+$blue: #584ccc;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "GothamPro", sans-serif;
+}
+
+:root {
+    --spacing: 4rem;
+}
+
+@media (min-width: 45em) {
+    :root {
+        --spacing: 5rem;
+    }
+}
+
+@media (min-width: 100em) {
+    :root {
+        --spacing: 6rem;
+    }
+}
+
+html {
+    font-size: 93.75%;
+
+    @media (min-width: 45em) {
+        font-size: 100%;
+    }
+}
+
+body {
+    color: $black;
+}
+
+.container {
+    width: min(90%, 80em);
+    margin-inline: auto;
+}
+
+.btn {
+    --fs: 1rem;
+
+    color: $white;
+    background-color: $blue;
+    font-size: var(--fs);
+    font-weight: 700;
+    padding: 1.35rem 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    transition: filter 300ms ease-in-out;
+
+    outline: none;
+    border: none;
+
+    &:hover,
+    &:focus {
+        filter: brightness(1.1);
+    }
+
+    &-space {
+        max-width: max-content;
+        margin-inline: auto;
+        margin-bottom: var(--spacing);
+        margin-top: -2rem;
+    }
+}
+
+.section-title {
+    line-height: 1.3;
+    font-size: 1.75rem;
+
+    @media (min-width: 45em) {
+        font-size: 2.25rem;
+    }
+}
+
+.custom-span {
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+
+    color: $blue;
+
+    &.white {
+        color: $white;
+    }
+}
+
+main {
+    overflow-x: hidden;
+}
+
+/* ---------------- HERO ----------------*/
+.hero {
+    // padding-block: var(--spacing);
+    padding-top: var(--spacing);
+
+    background-color: $blue;
+    color: $white;
+    position: relative;
+    overflow-inline: hidden;
+
+    background-image: url("../images/shape-hero.svg");
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    background-position-y: -100px;
+    background-position-x: 200px;
+
+    @media (min-width: 40em) {
+        background-position-x: 150%;
+    }
+
+    @import "form";
+
+    &__container {
+        display: grid;
+        gap: 2rem;
+
+        .brands {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+
+            margin-bottom: calc(var(--spacing) / 1);
+        }
+
+        span {
+            font-size: 1rem;
+        }
+
+        h1 {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            line-height: 1.4;
+        }
+
+        p + p {
+            margin-top: 1rem;
+        }
+
+        .image {
+            display: none;
+        }
+
+        @media (min-width: 45em) {
+            h1 {
+                font-size: 2.25rem;
+                margin-block: 1.25rem;
+
+                max-width: 18ch;
+            }
+
+            span,
+            p {
+                font-size: 1.125rem;
+            }
+
+            p {
+                max-width: 38ch;
+            }
+
+            &::before {
+                content: "";
+                background-image: url("../images/shape-hero.svg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+
+                width: 713px;
+                height: 721px;
+                z-index: 0;
+
+                position: absolute;
+                top: -40%;
+                right: -35%;
+                z-index: 0;
+                display: none;
+
+                @media (min-width: 1100px) {
+                    display: unset;
+                    transform: rotate(-30deg);
+                }
+            }
+
+            @media (min-width: 1100px) {
+                position: relative;
+
+                grid-template-columns: 1fr 1.2fr;
+                gap: 1rem;
+
+                .form {
+                    z-index: 99;
+                }
+            }
+        }
+    }
+}
+
+.hero--svg {
+    margin-top: -10px;
+}
+
+@media (min-width: 1440px) {
+    .hero--svg {
+        display: none;
+    }
+
+    .hero {
+        padding-bottom: var(--spacing);
+    }
+}
+
+/* ---------------- UP ----------------*/
+.up {
+    padding-block: var(--spacing);
+    position: relative;
+    z-index: 99;
+
+    &__container {
+        display: grid;
+        gap: 3rem;
+        position: relative;
+
+        h2 {
+            margin-block: 1.25rem;
+            max-width: 23ch;
+        }
+
+        p {
+            color: $lightBlue;
+            max-width: 40ch;
+            font-size: 1.125rem;
+        }
+
+        p + p {
+            margin-top: 1rem;
+        }
+
+        .image {
+            display: none;
+        }
+
+        @media (min-width: 1200px) {
+            grid-template-columns: 1fr 1.25fr;
+            align-items: center;
+
+            padding-top: 0;
+            margin-bottom: -0rem;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .image {
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: calc(-1 * var(--spacing));
+            max-width: 60%;
+            z-index: 0;
+        }
+    }
+}
+
+/* ---------------- BENEFITS ----------------*/
+.benefits {
+    background-color: $lightGray;
+    padding-top: var(--spacing);
+
+    &__container {
+        a {
+            max-width: max-content;
+            margin-inline: auto;
+
+            margin-top: var(--spacing);
+        }
+    }
+
+    .cards {
+        display: grid;
+        gap: 4rem;
+
+        @media (min-width: 45em) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (min-width: 70em) {
+            grid-template-columns: 1fr max-content 1fr;
+            position: relative;
+
+            .card li {
+                max-width: 30ch;
+            }
+
+            &::after {
+                content: "";
+                background-image: url("../images/shape.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+
+                width: 537px;
+                height: 523px;
+                transform: scale(0.75);
+
+                position: absolute;
+                bottom: -30%;
+                right: -22vw;
+                z-index: 0;
+            }
+        }
+    }
+
+    .card {
+        // border: 2px solid red;
+        color: $lightBlue;
+
+        display: grid;
+        grid-template-rows: max-content 1fr;
+
+        h4 {
+            font-size: 1.35rem;
+            margin-block: 1rem;
+        }
+    }
+}
+
+.benefits--svg {
+    display: none;
+}
+
+.benefits {
+    padding-bottom: var(--spacing);
+}
+
+@media (min-width: 40em) {
+    .benefits--svg {
+        display: unset;
+    }
+
+    .benefits {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .benefits--svg {
+        display: none;
+    }
+
+    .benefits-top--svg {
+        display: none;
+    }
+
+    .benefits {
+        padding-block: var(--spacing);
+    }
+}
+
+/* ---------------- PROMO ----------------*/
+@import "promo";
+
+/* ---------------- BRANDS ----------------*/
+@import "brands";
+
+/* ---------------- MAKEIT ----------------*/
+@import "makeit";
+
+/* ---------------- FOOTER ----------------*/
+@import "footer";
+
+/* ---------------- TKP ----------------*/
+@import "tkp";
+
+@media (max-width: 45em) {
+    .benefits-top--svg {
+        // transform: scale(0.5);
+        margin-bottom: -90px;
+    }
+}

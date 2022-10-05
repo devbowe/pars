@@ -1,0 +1,804 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+html{
+    overflow-x: hidden;
+}
+
+a {
+    transition-duration: .3s!important;
+}
+
+a:hover {
+    text-decoration: none!important;
+    transform: translateY(-10px)!important;
+    transition-duration: .3s!important;
+    color: #fff
+}
+
+ul,li{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+h1 {
+    font-family: 'GothamPro', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 38px;
+    padding-bottom: 24px;
+}
+
+h2{
+    font-family: 'GothamPro',sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+h3{
+    font-family: 'GothamPro', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    /* padding-bottom: 36px; */
+}
+
+p{
+    font-family: 'GothamPro',sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+li{
+    font-family: 'GothamPro',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+span{
+    color: #584CCC;
+}
+
+.divisor {
+    width: 100px;
+    border-bottom: solid 1px #584ccc;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* formulario */
+
+.form {
+    width: 42%!important;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 38px;
+    margin-left: 90px;
+    height: 100%;
+}
+
+.form h3 {
+    font-family: 'GothamPro', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-bottom:32px;  
+}
+
+input,
+select {
+    height: 40px;
+    border: solid 1px #c7c7c7;
+    background-color: #ffffff;
+    width: 100%;
+    font-family: 'GothamPro', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5f5f5f;
+    margin-bottom: 18px;
+    padding-left: 8px;
+}
+
+.form button,
+.hs-button {
+    width: 100%;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #584ccc;
+    font-family: 'GothamPro', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.form .hs-error-msg,
+.form .hs-main-font-element {
+    font-size: 10px;
+    color: red;
+}
+
+.form label {
+    display: none;
+}
+
+.form .hs-error-msg {
+    display: block;
+}
+
+ul.hs-error-msgs {
+    margin-top: -24px;
+}
+
+.form ul,
+.form li {
+    list-style: none;
+    padding: 0;
+}
+
+.buttom {
+    display: inline-block;
+    margin-top: 40px;
+    border-radius: 100px;
+    background-color: #584ccc;
+    font-family: 'GothamPro',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    width: 390px;
+    height: 56px;
+}
+
+/* sections */
+
+#section01 {
+    background: url(../images/BG-topo.png) center right no-repeat;
+    padding: 96px 0;
+    background-size: cover;
+}
+#section01 .legal-input {
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+#section01 .legal-input input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 1rem;
+    top: 0.2rem;
+}
+
+#section01 .legal-input span {
+    margin-left: 1rem;
+    text-indent: 1.8rem;
+}
+
+#section01 .logo {
+    position: relative;
+    padding-top: 4.3rem;
+}
+
+#section01 h2 {
+    font-size: 36px;
+    color: #ffffff;
+    padding-bottom: 36px;
+}
+
+#section01 .col1 span{
+    font-family: 'GothamPro', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+#section01 a {
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 100px;
+    background-image: linear-gradient(14deg, #0055a3 3%, #0091d5 103%);
+    font-family: 'GothamPro', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 38px;
+    width: 390px;
+    height: 56px;
+}
+
+#section01 p {
+    color: #ffffff;
+}
+
+#section01 .logo-pars{
+    margin-top: 80px;
+    max-width: 100%;
+}
+
+#section01 .logo-sign{
+    padding-top: 40px;
+}
+
+.line {
+    border-right: solid 1px #2383c6;
+    border-left: solid 1px #2383c6;
+}
+
+#section1 {
+    background: url("../images/BG-topo.png") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#section1 h2 {
+    font-size: 34px;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#section1>div>div>div.col-sm-6>h2:nth-child(6) {
+    padding-top: 0px;
+}
+
+#section1 .logo {
+    margin-bottom: 38px;
+}
+
+#section1 img {
+    padding-right: 20px;
+}
+
+#section1 p {
+    font-family: 'GothamPro', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 12px;
+}
+
+.off {
+    position: absolute;
+    padding: 0!important;
+    top: 0px;
+    right: -38px;
+}
+
+#section02{
+    padding: 100px 0;
+}
+
+#section02 h2{
+    text-align: center;
+}
+
+#section02 h3{
+    text-align: center;
+    font-size: 26px;
+    color: #000;
+}
+
+#section02 p{
+    text-align: center;
+}
+
+#section02 .buttom{
+    margin: 30px auto;
+    display: block;
+}
+
+#section02 .subtext{
+    font-size: 10px;
+}
+
+#section02 .divisor{
+    margin-bottom: 0;
+}
+
+#section03{
+    background-color: #F7F7F7;
+    padding: 160px 0;
+}
+
+#section03 h2{
+    text-align: center;
+}
+
+#section03 p{
+    text-align: center;
+}
+
+#section03 .row{
+    padding: 70px 0 0;
+}
+
+#section03 img{
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+    height: 110px;
+}
+
+#section03 .buttom{
+    margin: 60px auto;
+    display: block;
+}
+
+#section04{
+    background-color: #584CCC;
+}
+
+#section04 .row{
+    background-color: #ffffff;
+}
+
+#section04 .row .content{
+    padding: 100px 80px;
+}
+
+#section04 h2{
+    text-align: left;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+#section04 p{
+    text-align: left;
+}
+
+#section04 ul{
+    padding-top: 30px;
+}
+
+#section04 ul li{
+    list-style: disc;
+    font-size: 16px;
+}
+
+#section04 ul li::marker {
+    color: #584CCC;
+}
+
+#section04 .right-item{
+    background: url(../images/section04-img01.png) top center no-repeat;
+}
+
+#section04 .left-item{
+    background: url(../images/section04-img02.png) top center no-repeat;
+}
+
+#section04 .right-two-item{
+    background: url(../images/section04-img03.png) top center no-repeat;
+}
+
+#section04 .first-row{
+    position: relative;
+    top: -100px;
+}
+
+#section04 .last-row{
+    position: relative;
+    top: 100px;
+}
+
+#section05{
+    background: url(../images/section05-bg.png) center center no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    margin-top: 160px;
+}
+#section05 h2{
+    color: #ffffff;
+    text-align: left;
+    padding: 30px 0;
+    line-height: 1.2;
+}
+
+#section05 h3{
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+#section05 p{
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+}
+
+#section05 li{
+    height: 112px;
+    display: inline-table;
+}
+#section05 .info{
+    width: 83%;
+    float: right;
+}
+
+#section06{
+    background-color: #f7f7f7;
+    padding:96px;
+}
+#section06 h2{
+    text-align: left;
+    padding-bottom: 38px;
+}
+
+#section06 .screen{
+    position: absolute;
+    right: 50px;
+    margin-top: -60px;
+    width: 100%;
+}
+
+#section06 span{
+    font-family: 'GothamPro',sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding-top:42px;
+    display: block;
+}
+
+
+/* Footer */
+
+#footer {
+    color: #fff;
+    font-size: 9px;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 82px 0;
+    background-color: #2c3e50;
+}
+
+#footer img {
+    float: left;
+    padding-right: 73px;
+}
+
+#footer p {
+    font-family: 'GothamPro', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    float: left;
+    padding-left: 73px;
+    border-left: solid 1px #435b72;
+}
+
+
+@media screen and (max-width: 1500px) {
+    img,h1,h2,h3,h4,h5,h6,p,a,button,form {
+        zoom: 0.9;
+    }
+}
+
+@media screen and (min-width:1229px) and (max-width:1589px) {
+    #section08 {
+        background: url(../images/screen02.png) left -7em bottom no-repeat;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width:922px) and (max-width:1228px) {
+    #section08 {
+        background: url(../images/screen02.png) left -13em bottom no-repeat;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1024px){
+    body,html{
+        overflow-x: hidden;
+    }
+    .form {
+        width: 47%!important;
+        padding: 30px;
+    }
+
+    #section01 {
+        background: url(../images/BG-topo.png) center;
+    }
+
+    #section02 {
+        padding: 35px 0 35px 0;
+    }
+    #section03 .screen01 {
+        margin-top: -30px;
+    }
+
+    #section04 {
+        padding: 60px 0;
+    }
+    #section05 .info {
+        width: 70%;
+    }
+
+    #section05 .botao{
+        width: 330px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .form {
+        margin-left: 40px;
+    }
+
+    #section01 br, #section02 br, #section04 br, #section05 br, #section06 br{
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #section01 a {
+        width: 100%;
+    }
+    #section01 {
+        background: url(../images/BG-topo.png) center no-repeat;
+        background-size: cover;
+        padding-bottom: 80px;
+        height: auto;
+    }
+
+    h2{
+        padding-bottom: 10px;
+    }
+
+    #section03 {
+        padding: 100px 0;
+    }
+
+    #section03 br{
+        display: none;
+    }
+
+    #section04 .row .content {
+        padding: 100px 40px;
+    }
+
+    #section06 .screen {
+        margin-top: 15px;
+    }
+
+    h2,
+    h1 {
+        font-size: 26px!important;
+    }
+    h3 {
+        font-size: 17px!important;
+    }
+    p {
+        font-size: 16px!important;
+    }
+    .form {
+        margin-left: 0;
+        margin: 10px;
+    }
+    #section1 {
+        background: url(../images/BG-topo.png) center center no-repeat;
+        background-size: cover;
+        padding: 60px 0;
+        height: auto;
+    }
+
+    .off {
+        position: absolute;
+        padding: 0!important;
+        top: -40px;
+        right: 20px;
+        width: 120px;
+    }
+
+    .buttom {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width:766px){
+    .container {
+        width: 92%;
+    }
+    #section01 {
+        background: url(../images/BG-topo.png) center left no-repeat;
+        padding: 20px 0;
+        background-size: cover;
+    }
+    #section01 .logo-pars {
+        position: relative;
+        display: block;
+        margin: 50px 0;
+    }
+    #section02 {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    #section03 br{
+        display: none;
+    }
+
+    #section03 .row {
+        padding: 0;
+    }
+
+    #section03 .col-sm-3{
+        padding: 30px 0;
+    }
+
+    #section03 .col-sm-3 p{
+        text-align: center;
+    }
+
+    #section03 .col-sm-3 br{
+        display: block;
+    }
+
+    #section04 img {
+        width: 48%;
+    }
+    #section06 {
+        background-color: #f7f7f7;
+        padding: 40px 0;
+    }
+    #section06 .screen01 {
+        position: absolute;
+        right: 0;
+        margin-top: -100px;
+        width: 91%;
+    }
+    #section06 h2 {
+        padding-bottom: 18px;
+        margin-top: 120%;
+    }
+    #section06 a,#section05 .botao {
+        width: 100%;
+    }
+    #section04 {
+        padding: 20px 0 40px 0;
+    }
+    #section04 h2 {
+        font-size: 26px!important;
+    }
+
+    #section04 .row .content {
+        padding: 60px 40px;
+    }
+
+    #section05 .info {
+        width: 75%;
+        float: right;
+    }
+    #section05 .buttom{
+        margin-bottom: 40px;
+    }
+    #section05 {
+        background-size: cover;
+        padding: 40px 0;
+    }
+    #section05 h2 {
+        padding-bottom: 18px;
+    }
+    #section05 .icon-sign{
+        width: 38px;
+    }
+
+    #footer p {
+        font-size: 14px;
+        float: left;
+        padding-left: 0px;
+        padding-top: 40px;
+        border-left: solid 0px #435b72;
+    }
+    .form {
+        width: 100%!important;
+        height: auto;
+        margin: 0;
+        padding: 30px;
+    }
+    .form h3 {
+        font-size: 13px;
+        padding-bottom: 16px;
+    }
+    input,
+    select {
+        padding-left: 8px;
+    }
+    .form button,
+    .hs-button {
+        font-size: 15px;
+    }
+
+    .buttom{
+        width: 100%;
+    }
+}
+
+

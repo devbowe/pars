@@ -1,0 +1,78 @@
+// BRANDS CARROSSEL
+.glider-next,
+.glider-prev {
+    background-image: url("../images/arrow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 0.5em;
+    aspect-ratio: 1;
+
+    top: 40%;
+}
+.glider-prev {
+    transform: rotate(180deg);
+}
+
+.glider-contain {
+    width: 90%;
+
+    margin-bottom: 4rem;
+}
+
+// BRANDS DISPLAY
+.brands--title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: var(--spacing);
+    padding-bottom: calc(var(--spacing) / 2);
+    width: 90%;
+    margin-inline: auto;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.brands--grid,
+.brands--carousel {
+    padding-block: var(--spacing);
+}
+
+.brands--grid {
+    display: none;
+}
+
+.brands--grid-container {
+    margin-bottom: 4rem;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    .item:nth-child(19) {
+        grid-column: 2/3;
+    }
+}
+
+// DISPLAYING
+@media (min-width: 1200px) {
+    .brands--carousel {
+        display: none;
+    }
+
+    .brands--grid {
+        display: initial;
+    }
+}
+
+@media (max-width: 1200px) {
+    .brands--carousel {
+        display: initial;
+    }
+
+    .brands--grid {
+        display: none;
+    }
+}

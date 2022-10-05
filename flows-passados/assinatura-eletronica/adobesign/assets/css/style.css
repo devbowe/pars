@@ -1,0 +1,1996 @@
+html,
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#footer {
+    padding: 82px 0;
+    background-color: #2c3e50;
+}
+
+#footer img {
+    float: left;
+    padding-right: 73px;
+}
+
+#footer p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    float: left;
+    padding-left: 73px;
+    border-left: solid 1px #435b72;
+}
+
+a {
+    transition-duration: 0.3s !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    transform: translateY(-10px) !important;
+    transition-duration: 0.3s !important;
+}
+
+.form {
+    width: 42% !important;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 50px;
+    margin-left: 90px;
+    height: 100%;
+}
+
+.form h3 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+input,
+select {
+    height: 40px;
+    border: solid 1px #c7c7c7;
+    background-color: #ffffff;
+    width: 100%;
+    font-family: "GothamPro", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5f5f5f;
+    margin-bottom: 30px;
+    padding-left: 8px;
+}
+
+.form button,
+.hs-button {
+    width: 100%;
+    height: 64px;
+    border-radius: 32px;
+    background-image: linear-gradient(201deg, #0091d5 0%, #0055a3 100%);
+    font-family: "GothamPro", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.form .hs-error-msg,
+.form .hs-main-font-element {
+    font-size: 10px;
+    color: red;
+}
+
+.form label {
+    display: none;
+}
+
+.form .hs-error-msg {
+    display: block;
+}
+
+ul.hs-error-msgs {
+    margin-top: -24px;
+}
+
+.form ul,
+.form li {
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    #footer p {
+        font-size: 14px;
+        float: left;
+        padding-left: 0px;
+        padding-top: 40px;
+        border-left: solid 0px #435b72;
+    }
+    .form {
+        width: 100% !important;
+        height: auto;
+        margin: 0;
+        padding: 30px;
+    }
+    .form h3 {
+        font-size: 13px;
+        padding-bottom: 16px;
+    }
+    input,
+    select {
+        padding-left: 8px;
+    }
+    .form button,
+    .hs-button {
+        font-size: 15px;
+    }
+}
+
+#section01 {
+    background: url(../images/bg01.jpg) top center no-repeat;
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    background-size: cover;
+    padding-bottom: 9rem;
+}
+
+#section01 .legal-input {
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+#section01 .legal-input input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 1rem;
+    top: 0.2rem;
+}
+
+#section01 .legal-input span {
+    margin-left: 1rem;
+    text-indent: 1.8rem;
+}
+
+#section01 .achievements {
+    margin-bottom: 2.5rem;
+}
+
+#section01 .col1 {
+    padding-top: 20px;
+}
+
+#section01 .logo {
+    position: relative;
+}
+
+#section01 h1 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+#section01 a {
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 100px;
+    background-image: linear-gradient(14deg, #0055a3 3%, #0091d5 103%);
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+    width: 390px;
+    height: 56px;
+}
+
+#section01 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+#section01 strong {
+    font-family: "GothamPro", sans-serif;
+    font-size: 15px;
+    color: #0091d5;
+    font-weight: 300;
+}
+
+#section02 {
+    height: 820px;
+    display: flex;
+    align-items: center;
+}
+
+#section01 .col1 img {
+    padding-top: 40px;
+}
+
+#section02 .screen {
+    position: absolute;
+    left: 0;
+    margin-top: -200px;
+    z-index: 1;
+}
+
+#section02 ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#section02 li {
+    width: 50%;
+    float: left;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+#section02 li p {
+    margin: 0;
+    padding: 0;
+}
+
+#section02 h5 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.69;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: #0091d5;
+    text-transform: uppercase;
+}
+
+#section02 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0c152e;
+}
+
+#section02 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#section03 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 570px;
+    z-index: 99999;
+}
+
+#section03 a {
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 100px;
+    background-image: linear-gradient(14deg, #0055a3 3%, #0091d5 103%);
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 390px;
+    height: 56px;
+}
+
+#section03 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    z-index: 2;
+}
+
+#section03 strong {
+    color: #0055a3;
+    font-weight: 500;
+}
+
+#section03 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#section04 {
+    height: 883px;
+    background: #0091d5 url(../images/screen02.png) right center no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+#section04 h5 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.69;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: #ffffff;
+}
+
+#section04 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 0;
+    padding: 30px 0;
+}
+
+#section04 .produtividade {
+    background: url(../images/box-produtividade.svg) right center no-repeat;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#section04 strong {
+    font-family: "GothamPro", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #0c152e;
+}
+
+#section04 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+#section04 a {
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 100px;
+    background-image: linear-gradient(14deg, #0c152e 3%, #0055a3 103%);
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 390px;
+    height: 56px;
+}
+
+#section05 {
+    background: url(../images/screen03.png) left bottom no-repeat;
+    background-size: 70%;
+    height: 1350px;
+    display: flex;
+    align-items: center;
+}
+
+#section05 h5 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.69;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: #0091d5;
+    text-transform: uppercase;
+}
+
+#section05 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding-right: 20px;
+}
+
+#section05 h3 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#section05 p {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#section05 ul {
+    list-style: none;
+    padding-left: 0px;
+    min-height: 350px;
+}
+
+#section05 li {
+    width: 50%;
+    float: left;
+    display: flex;
+    height: 115px;
+    align-items: center;
+}
+
+#section05 li p {
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 100px;
+}
+
+#section05 a {
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 100px;
+    background-image: linear-gradient(14deg, #0055a3 3%, #0091d5 103%);
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 390px;
+    height: 56px;
+}
+
+#section06 {
+    height: 1120px;
+    padding-bottom: 100px;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+}
+
+#section06 h5 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.69;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #0091d5;
+    text-transform: uppercase;
+}
+
+#section06 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+}
+
+#section06 h3 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top: 42px;
+    padding-bottom: 72px;
+}
+
+#section06 img {
+    max-width: 100%;
+    padding-bottom: 30px;
+}
+
+#section06 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#section07 {
+    background: url(../images/bg-adobe.jpg) center center no-repeat;
+    background-size: cover;
+    height: 1429px;
+    text-align: center;
+}
+
+#section07 .container {
+    max-width: 1330px;
+}
+
+#section07 .col1 {
+    height: 837px;
+    width: 552px;
+    text-align: right;
+    object-fit: contain;
+    border-radius: 7px;
+    background-image: linear-gradient(21deg, #0c152e -1%, #0055a3 102%);
+    padding: 80px 60px;
+    margin-top: -50px;
+    position: absolute;
+}
+
+#section07 .col2 {
+    float: right;
+}
+
+#section07 .col1 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    padding-top: 64px;
+}
+
+#section07 .col1 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    padding-top: 48px;
+}
+
+#section07 .selo {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+#section07 .col2 h2 {
+    padding-top: 180px;
+    font-family: "GothamPro", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+#section07 .col2 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 33px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+#section07 .col2 strong {
+    font-size: 45px;
+    color: #0091d5;
+}
+
+.line {
+    border-right: solid 1px #2383c6;
+    border-left: solid 1px #2383c6;
+}
+
+#section07 .col2 h5 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+#section07 h3 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2383c6;
+}
+
+#section07 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+#section07 a {
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 100px;
+    background-image: linear-gradient(14deg, #0055a3 3%, #0091d5 103%);
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 390px;
+    height: 56px;
+}
+
+#section07 .col3 {
+    padding-top: 110px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#section08 {
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#section08 h5 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.69;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #2383c6;
+    width: 100%;
+}
+
+#section08 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top: 70px;
+    width: 100%;
+}
+
+#section08 h3 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top: 48px;
+}
+
+#section08 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section08 .col1 li {
+    border-left: solid 1px #d1d2d4;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+#section08 .col1 .item {
+    cursor: pointer;
+}
+
+#section08 .col1 .active p {
+    display: block;
+}
+
+#section08 .col1 .active {
+    border-left: solid 1px #0091d5;
+}
+
+#section08 .col1 h4 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#section08 .col1 .active h4 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0091d5;
+}
+
+#section08 li {
+    align-items: center;
+}
+
+#section08 .intro {
+    padding-bottom: 100px;
+}
+
+#section08 .col1 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #808284;
+    display: none;
+}
+
+#section08 .col2 li {
+    width: 50%;
+    display: block;
+    text-align: left;
+    float: left;
+    height: 230px;
+}
+
+#section08 .col2 img {
+    float: left;
+    width: 30%;
+}
+
+#section08 .col2 h4 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    float: right;
+    width: 70%;
+}
+
+#section08 .col2 ul p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    float: right;
+    width: 70%;
+}
+
+#section08 .col2 h5 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#section08 .col2 a {
+    font-family: "GothamPro", sans-serif;
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    border-radius: 100px;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+    margin-top: 0px;
+    display: inline-block;
+    width: 319px;
+    height: 56px;
+}
+
+#section8 a {
+    margin: 60px auto;
+    display: block;
+    max-width: 340px;
+}
+
+.divdesign,
+.divvideo,
+.divilustra,
+.divinterface,
+.div3d {
+    display: none;
+}
+
+#section09 {
+    background: #edf0f5 url(../images/bg02.png) right -140px bottom no-repeat;
+    height: 944px;
+    background-color: #edf0f5;
+    display: flex;
+    align-items: center;
+}
+
+#section09 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#section09 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+
+.object1 {
+    position: absolute;
+    left: -60px;
+    bottom: -180px;
+}
+
+.object2 {
+    position: absolute;
+    right: -30px;
+    margin-top: 130px;
+    width: 150px;
+}
+
+.object3 {
+    position: absolute;
+    right: 190px;
+    margin-top: 440px;
+    width: 150px;
+}
+
+@media screen and (max-width: 1500px) {
+    #section02 .screen {
+        left: 0;
+        margin-top: 0;
+        max-width: 50%;
+    }
+    #section04 {
+        background: #0091d5 url(../images/screen02.png) right bottom no-repeat;
+        background-size: 60%;
+    }
+    #section05 h2 {
+        font-family: "GothamPro", sans-serif;
+        font-size: 40px;
+    }
+    #section05 {
+        background: url(../images/screen03.png) left -100px bottom no-repeat;
+        background-size: 90%;
+    }
+    #section09 {
+        background: #edf0f5 url(../images/bg02.png) right -340px bottom no-repeat;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .form {
+        margin-left: 40px;
+    }
+    #section04 .produtividade {
+        width: 539px;
+    }
+    #section05 li p {
+        padding-right: 30px;
+    }
+    #section09 {
+        background: #edf0f5 url(../images/bg02.png) right -430px bottom no-repeat;
+    }
+}
+
+/**tp*/
+
+#section1 {
+    background: url("../images/bg01.jpg") center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#section1 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#section1 > div > div > div.col-sm-6 > h2:nth-child(6) {
+    padding-top: 0px;
+}
+
+#section1 .logo {
+    margin-bottom: 50px;
+}
+
+#section1 img {
+    padding-right: 20px;
+}
+
+#section1 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 12px;
+}
+
+#section01 .blue-text {
+    color: #a1e1ff;
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+
+#section01 .achievements img {
+    margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 1100px) {
+    #section01 a {
+        width: 100%;
+    }
+    #section01 {
+        background: url(../images/bg01.jpg) center left -1180px no-repeat;
+        background-size: cover;
+        padding: 120px 0 80px 0;
+        height: auto;
+    }
+    h2,
+    h1 {
+        font-size: 26px !important;
+    }
+    h3 {
+        font-size: 17px !important;
+    }
+    p {
+        font-size: 16px !important;
+    }
+    .form {
+        margin-left: 0;
+        margin: 10px;
+    }
+    #section01 .col1 {
+        padding-top: 0;
+    }
+    #section02 {
+        height: auto;
+    }
+    #section02 .screen {
+        left: 0;
+        max-width: 70%;
+        position: relative;
+        margin-top: 70px;
+        height: auto;
+        height: 330px;
+    }
+    #section03 {
+        height: auto;
+        padding: 80px 10px;
+    }
+    #section04 strong {
+        font-size: 25px;
+    }
+    #section04 .produtividade {
+        background: url(../images/box-produtividade.svg) right 245px center
+            no-repeat;
+        background-size: 41%;
+        height: auto;
+        padding: 40px 0;
+        margin-bottom: 10px;
+    }
+    #section04 a {
+        width: 100%;
+    }
+    #section05 a {
+        width: 100%;
+    }
+    #section04 h5 {
+        line-height: 0.69;
+    }
+    .object1 {
+        bottom: -130px;
+    }
+    #section02 li p {
+        font-size: 12px !important;
+    }
+    #section02 li img {
+        width: 40px;
+    }
+    #section05 li {
+        height: auto;
+        width: 100%;
+        padding: 10px 0;
+    }
+    #section05 ul {
+        min-height: 550px;
+    }
+    #section05 {
+        background: none;
+        height: auto;
+        padding: 100px 0;
+    }
+    #section06 {
+        height: auto;
+        text-align: center;
+        padding: 80px 0;
+    }
+    #section06 h5 {
+        line-height: 1;
+    }
+    #section06 h3 {
+        padding-top: 22px;
+        padding-bottom: 42px;
+    }
+    #section06 p {
+        text-align: center;
+    }
+    #section07 {
+        background: url(../images/bg-adobe.jpg) center center no-repeat;
+        background-size: cover;
+        height: auto;
+        padding-bottom: 80px;
+    }
+    #section08 h5 {
+        line-height: 1;
+    }
+    #section08 h2 {
+        padding-top: 52px;
+    }
+    #section08 .col2 a {
+        width: 100%;
+    }
+    #section07 .col1 {
+        height: auto;
+        width: 100%;
+        text-align: left;
+        margin-top: 0;
+        position: inherit;
+    }
+    #section09 p {
+        padding-top: 10px;
+    }
+    #section07 .selo {
+        position: absolute;
+        right: 0;
+        top: -34px;
+        width: 53%;
+    }
+    #section07 img {
+        max-width: 100%;
+    }
+    #section07 .col1 p {
+        text-align: left;
+    }
+    #section07 a {
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 100%;
+    }
+    #section07 h3 {
+        font-size: 48px !important;
+    }
+    #section09 {
+        background: #edf0f5 url(../images/bg02.png) right bottom no-repeat;
+        background-size: 90%;
+        padding: 80px 0 350px;
+    }
+    #section07 .col1 h2 {
+        text-align: left;
+    }
+    .object3 {
+        right: 370px;
+    }
+    .object2 {
+        right: -110px;
+    }
+    #section08 .col1 li {
+        width: 50%;
+        float: left;
+    }
+    #section08 .col1 h4,
+    #section08 .col1 .active h4 {
+        font-size: 13px;
+    }
+    #section08 .col1 .active p {
+        display: none;
+    }
+    #section08 .col2 h4 {
+        font-size: 14px;
+    }
+    #section08 .col2 ul p {
+        font-family: "GothamPro", sans-serif;
+        font-size: 11px !important;
+    }
+    #section08 .col2 li {
+        height: 180px;
+    }
+    #section01 .col1 img {
+        padding-top: 40px;
+        max-width: 91%;
+    }
+    #section01 .achievements {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #section01 .achievements img {
+        max-width: 100%;
+    }
+    #section1 {
+        background: url(../images/bg01.jpg) center center no-repeat;
+        background-size: cover;
+        padding: 60px 0;
+        height: auto;
+    }
+}
+
+.selos {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+/**novas sessões*/
+
+#section6 {
+    background: url(../images/bg04.svg) right center no-repeat;
+    background-size: contain;
+}
+
+#section6 .table {
+    width: 100%;
+    margin-bottom: 70px;
+    /* position: absolute;
+    margin-left: -50px; */
+}
+
+#section6 .col1 {
+    margin-top: -100px;
+    padding: 100px 50px;
+    height: 645px;
+    object-fit: contain;
+    border-radius: 7px;
+    background-image: linear-gradient(23deg, #0055a3 0%, #0c152e 101%);
+}
+
+#section6 .col1 img {
+    float: right;
+    padding-top: 30px;
+}
+
+#section6 .col2 {
+    padding: 60px 0 80px 90px;
+}
+
+#section6 h5 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.69;
+    letter-spacing: 1.6px;
+    text-align: right;
+    color: #df4d33;
+    text-transform: uppercase;
+}
+
+#section6 .blue {
+    font-family: "GothamPro", sans-serif;
+    font-size: 20px;
+    line-height: 3.69;
+    text-align: left;
+    color: #2383c6;
+    font-weight: 600;
+}
+
+#section6 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+
+#section6 .col1 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    padding: 24px 0;
+}
+
+#section6 h3 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding-top: 40px;
+}
+
+#section6 .col2 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#section6 .col2 .subtext {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#section6 a {
+    margin-top: 50px;
+    padding: 20px 50px;
+    border-radius: 100px;
+    background-image: linear-gradient(14deg, #0055a3 3%, #0091d5 103%);
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+#section7 {
+    padding: 80px 0 100px 0;
+    text-align: center;
+}
+
+#section7 h5 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.69;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #2383c6;
+    text-transform: uppercase;
+}
+
+#section7 h2 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+#section7 h3 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 26px;
+    margin-top: 48px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+#section7 h6 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 16px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+#section7 ul {
+    padding: 0;
+    margin: 0 auto;
+    display: inline-flex;
+}
+
+#section7 li {
+    float: left;
+    list-style: none;
+    padding: 40px 20px 60px 0;
+    width: 250px;
+}
+
+#section7 img {
+    /* margin: 0 auto; */
+    display: block;
+    height: 72px;
+}
+
+#section7 h4 {
+    font-family: "GothamPro", sans-serif;
+    font-size: 22px;
+    margin-top: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    float: left;
+    width: 80%;
+}
+
+#section7 p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 24px;
+    margin-top: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-right: 10px;
+}
+
+#section7 .subtext {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+#section7 ul p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    float: left;
+    /* width: 80%; */
+    /* padding-right: 10px; */
+}
+
+#section7 a {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1500px) {
+    html {
+        zoom: 0.9;
+    }
+
+    #section6 .col1 p {
+        font-family: "GothamPro", sans-serif;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #section6 h5 {
+        text-align: left;
+    }
+    #section6 h2 {
+        text-align: left;
+    }
+    #section6 .col1 p {
+        font-family: "GothamPro", sans-serif;
+        font-size: 14px;
+        text-align: left;
+    }
+    #section6 .col1 {
+        margin-top: -100px;
+        padding: 100px 20px;
+        height: auto;
+    }
+    #section6 .col2 {
+        padding: 50px 20px;
+    }
+    #section6 a {
+        margin-top: 50px;
+        padding: 20px 32px;
+    }
+    #section7 h2 {
+        font-size: 30px;
+    }
+    #section7 h3 {
+        font-size: 18px;
+    }
+    #section7 h6 {
+        font-size: 11px;
+    }
+    #section7 ul {
+        display: block;
+    }
+
+    #section7 li {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    #section7 img {
+        margin-top: 20px;
+    }
+    #section7 p {
+        font-size: 14px;
+    }
+    #section8 .screen {
+        margin: 0 auto;
+        margin-top: -210px;
+        width: 105%;
+    }
+    #section7 {
+        padding: 100px 0 100px 0;
+        text-align: center;
+    }
+    #section7 ul {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+a.sabermais {
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 15px 30px;
+    border-radius: 28px;
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(14deg, #0055a3 3%, #0091d5 103%);
+    transition-duration: 0.3s;
+}
+
+a.sabermais:hover {
+    text-decoration: none;
+    transform: translateY(-10px);
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    text-decoration: none !important;
+    transform: translateY(-10px) !important;
+    transition-duration: 0.3s !important;
+}
+
+#section8 h5 {
+    font-family: GothamPro, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.69;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #2383c6;
+    text-transform: uppercase;
+}
+
+#section8 h2 {
+    font-family: GothamPro, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    padding-bottom: 40px;
+}
+
+#section8 li {
+    width: 16.66%;
+    float: left;
+    list-style: none;
+}
+
+#section8 ul {
+    padding: 0;
+    margin: 0;
+}
+
+#section8 li img {
+    max-width: 100%;
+}
+
+#section8 {
+    padding: 50px 0;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+@media screen and (max-width: 1100px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    #section8 li {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #section6 .table {
+        width: 100%;
+        position: inherit;
+        margin-left: 0;
+    }
+
+    #section7 h4,
+    #section7 ul p {
+        width: 100%;
+        text-align: center;
+    }
+
+    #section7 p br {
+        display: none;
+    }
+    #section7 img {
+        width: 80px;
+        margin: 0 auto;
+    }
+}
+
+/* iPhones and Smartphones | 420w */
+
+@media screen and (max-width: 420px) {
+    #section09 {
+        background: #edf0f5 url(../images/bg02.png) 105% 15%/80% no-repeat;
+        padding: 20rem 0 0;
+    }
+}
+
+/* Media iPad | 768w */
+
+@media screen and (min-width: 430px) and (max-width: 768px) {
+    #section6 .col1 {
+        margin-top: -2rem;
+        padding: 2rem 3rem;
+        height: auto;
+    }
+    #section09 {
+        background: #edf0f5 url(../images/bg02.png) 175% 55%/70% no-repeat;
+        padding: 3rem 0;
+    }
+}
+
+/* Media iPad | 1024w */
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    #section01 {
+        background: url(../images/bg01.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    #section6 .col1 {
+        margin-top: -2rem;
+        padding: 2rem 3rem;
+        height: auto;
+    }
+    #section09 {
+        background: #edf0f5 url(../images/bg02.png) 175% 75%/70% no-repeat;
+        padding: 3rem 0;
+    }
+}
+
+/* -------------------------- NOVA SECAO SE PRECISAR -------------------------- */
+.section02__container {
+    display: grid;
+    gap: 3rem;
+}
+
+.section02__banner {
+    background: linear-gradient(to bottom, #0c1732, #0055a3);
+    padding: 5rem;
+    text-align: right;
+}
+
+.section02__banner span {
+    color: #df4d33;
+    font-size: 1rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.section02__banner h2 {
+    color: #fff !important;
+    line-height: 1.2;
+    text-align: right;
+    font-size: 2rem !important;
+
+    margin-block: 2rem;
+}
+
+.section02__banner h2 span {
+    display: block;
+}
+
+.section02__banner img {
+    margin-left: auto;
+    max-width: 2rem;
+}
+
+.section02__content p {
+    font-size: 24px !important;
+}
+
+.section02__content img {
+    margin-block: 3rem;
+    position: relative;
+}
+
+.section02__btn {
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 15px 30px;
+    border-radius: 28px;
+    font-family: "GothamPro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(14deg, #0055a3 3%, #0091d5 103%);
+    transition-duration: 0.3s;
+}
+
+.section02__btn:hover {
+    color: #fff;
+}
+
+@media (max-width: 45em) {
+    .section02__banner {
+        padding: 3rem;
+    }
+    .section02__content img {
+        display: none;
+    }
+
+    .section02__content p {
+        margin-bottom: 3rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+@media (max-width: 1200px) {
+    .section02__banner h2 {
+        max-width: 25ch;
+        margin-left: auto;
+    }
+
+    .section02__banner h2 span {
+        display: inline;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section02__container {
+        grid-template-columns: 1fr 1.25fr;
+    }
+
+    .section02__banner {
+        padding-inline: 4rem !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        padding-top: 0;
+        margin-top: -3rem;
+    }
+
+    .section02__banner h2 {
+        font-size: 40px !important;
+        line-height: 1.3 !important;
+        font-weight: 400 !important;
+
+        margin-bottom: 3rem;
+    }
+
+    .section02__content {
+        padding-block: 4rem;
+    }
+
+    .section02__content img {
+        margin-block: 4rem;
+
+        transform: scale(1.1);
+        margin-left: 1rem;
+    }
+}
+
+/* botao qa */
+
+.btn-cta {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.5em 1.25em !important;
+    font-size: 1.15rem;
+    margin-block: 2rem !important;
+    border-radius: 5px;
+    font-weight: 600;
+    display: block !important;
+    width: max-content !important;
+}
+
+.btn-cta i {
+    margin-left: 0.25rem;
+    font-size: 1.25rem;
+}
+
+.btn-cta:hover {
+    color: #fff !important;
+}
+
+.split-social {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.split-social a {
+    width: 4rem !important;
+    height: 5rem !important;
+
+    display: flex !important;
+}

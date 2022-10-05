@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_281" data-name="Retângulo 281" width="79" height="73" transform="translate(147.968 5186)" fill="#acacac" stroke="#acacac" stroke-linejoin="round" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1685" data-name="Grupo 1685" transform="translate(-1403 -4958)">
+    <g id="Grupo_de_máscara_131" data-name="Grupo de máscara 131" transform="translate(1272.032 -206)" clip-path="url(#clip-path)">
+      <g id="screen" transform="translate(150.699 5188.405)">
+        <g id="Grupo_1654" data-name="Grupo 1654" transform="translate(0 0)">
+          <g id="Grupo_1653" data-name="Grupo 1653">
+            <path id="Caminho_8367" data-name="Caminho 8367" d="M68.546,36.469V10.013A6.02,6.02,0,0,0,62.533,4H9.62a6.02,6.02,0,0,0-6.013,6.013V28.051A3.612,3.612,0,0,0,0,31.659V67.735a3.612,3.612,0,0,0,3.608,3.608H30.064a3.612,3.612,0,0,0,3.608-3.608H43.75a3.607,3.607,0,0,0,3.48-4.556l-2.364-8.672H51.71V67.735a3.612,3.612,0,0,0,3.608,3.608H68.546a3.612,3.612,0,0,0,3.608-3.608V40.077A3.612,3.612,0,0,0,68.546,36.469ZM31.266,67.735a1.2,1.2,0,0,1-1.2,1.2H3.608a1.2,1.2,0,0,1-1.2-1.2V65.33H31.266Zm0-4.81H2.405V36.469H31.266Zm0-28.861H2.405V31.659a1.2,1.2,0,0,1,1.2-1.2H30.064a1.2,1.2,0,0,1,1.2,1.2ZM44.911,63.811a1.2,1.2,0,0,1-1.16,1.519H33.671V62.925h11ZM33.671,60.52V54.507h8.7l1.64,6.013ZM51.71,52.1H33.671V44.887H51.71Zm0-12.026v2.405H33.671V31.659a3.612,3.612,0,0,0-3.608-3.608H6.013V10.013A3.612,3.612,0,0,1,9.62,6.405H62.533a3.612,3.612,0,0,1,3.608,3.608V36.469H55.317A3.612,3.612,0,0,0,51.71,40.077ZM69.748,67.735a1.2,1.2,0,0,1-1.2,1.2H55.317a1.2,1.2,0,0,1-1.2-1.2V65.33H69.748Zm0-4.81H54.115V44.887H69.748Zm0-20.443H54.115V40.077a1.2,1.2,0,0,1,1.2-1.2H68.546a1.2,1.2,0,0,1,1.2,1.2Z" transform="translate(0 -4)" fill="#acacac" stroke="#acacac" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Grupo_1674" data-name="Grupo 1674" transform="translate(8.814 4.987)">
+          <g id="Grupo_1673" data-name="Grupo 1673" transform="translate(0 0)">
+            <rect id="Retângulo_291" data-name="Retângulo 291" width="1" height="3" transform="translate(0.456 -0.392)" fill="#acacac" stroke="#acacac" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Grupo_1676" data-name="Grupo 1676" transform="translate(13.434 4.987)">
+          <g id="Grupo_1675" data-name="Grupo 1675" transform="translate(0 0)">
+            <rect id="Retângulo_292" data-name="Retângulo 292" width="2" height="3" transform="translate(-0.164 -0.392)" fill="#acacac" stroke="#acacac" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Grupo_1678" data-name="Grupo 1678" transform="translate(18.055 4.987)">
+          <g id="Grupo_1677" data-name="Grupo 1677" transform="translate(0 0)">
+            <rect id="Retângulo_293" data-name="Retângulo 293" width="3" height="3" transform="translate(0.215 -0.392)" fill="#acacac" stroke="#acacac" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="Retângulo_298" data-name="Retângulo 298" width="114" height="114" transform="translate(1403 4958)" fill="#f5f5f5" opacity="0"/>
+  </g>
+</svg>

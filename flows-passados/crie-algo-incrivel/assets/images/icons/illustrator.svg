@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_36" data-name="Retângulo 36" width="114" height="114" transform="translate(326 7526)" fill="#f5f5f5"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_56" data-name="Grupo de máscara 56" transform="translate(-326 -7526)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(348 7549)">
+      <g id="Surfaces">
+        <g id="Drawing_Surface" data-name="Drawing Surface">
+          <g id="Outline_no_shadow" data-name="Outline no shadow">
+            <path id="Caminho_7382" data-name="Caminho 7382" d="M12.459,0H57.9A12.449,12.449,0,0,1,70.36,12.459V56.141A12.449,12.449,0,0,1,57.9,68.6H12.459A12.449,12.449,0,0,1,0,56.141V12.459A12.449,12.449,0,0,1,12.459,0Z" fill="#300"/>
+          </g>
+        </g>
+      </g>
+      <g id="Outlined_Mnemonics_Logos" data-name="Outlined Mnemonics Logos" transform="translate(14.538 15.215)">
+        <g id="Ai">
+          <path id="Caminho_7383" data-name="Caminho 7383" d="M69.147,83.5H58.242l-2.228,6.889a.513.513,0,0,1-.557.41H49.945c-.322,0-.41-.176-.322-.528L59.062,63.1c.088-.293.176-.616.293-.967a10.24,10.24,0,0,0,.176-1.906.29.29,0,0,1,.235-.322h7.593c.235,0,.352.088.381.235l10.7,30.2c.088.322,0,.469-.293.469H72.02a.443.443,0,0,1-.469-.322Zm-9.205-5.951h7.446c-.176-.616-.41-1.349-.674-2.111-.264-.792-.528-1.642-.792-2.521-.293-.909-.557-1.788-.85-2.7s-.557-1.759-.792-2.609c-.235-.821-.44-1.583-.645-2.287h-.059a35.994,35.994,0,0,1-1,3.782c-.44,1.407-.879,2.873-1.349,4.339-.41,1.5-.85,2.873-1.29,4.1Z" transform="translate(-49.59 -57.555)" fill="#ff9a00"/>
+          <path id="Caminho_7384" data-name="Caminho 7384" d="M161.1,59.258a3.628,3.628,0,0,1-2.609-1.026,3.808,3.808,0,0,1-1-2.7,3.449,3.449,0,0,1,1.055-2.609A3.754,3.754,0,0,1,161.16,51.9a3.511,3.511,0,0,1,2.668,1.026,4.03,4.03,0,0,1-.059,5.306A3.447,3.447,0,0,1,161.1,59.258Zm-3.283,25.447V62.131c0-.293.117-.41.381-.41H164c.264,0,.381.147.381.41V84.705c0,.322-.117.469-.381.469h-5.746A.41.41,0,0,1,157.818,84.705Z" transform="translate(-125.861 -51.9)" fill="#ff9a00"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

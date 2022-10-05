@@ -1,0 +1,453 @@
+@use "reset";
+
+$white: #ffffff;
+$gray: #5f5f5f;
+$lightGray: #e5e5e5;
+$black: #000b1d;
+
+$lightBlue: #64607d;
+$red: #df4d33;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "GothamPro", serif;
+}
+
+:root {
+    --spacing: 4rem;
+}
+
+@media (min-width: 45em) {
+    :root {
+        --spacing: 5rem;
+    }
+}
+
+@media (min-width: 100em) {
+    :root {
+        --spacing: 6rem;
+    }
+}
+
+html {
+    font-size: 93.75%;
+
+    @media (min-width: 45em) {
+        font-size: 100%;
+    }
+}
+
+body {
+    color: $black;
+}
+
+main {
+    overflow: hidden;
+}
+
+.container {
+    width: min(90%, 80em);
+    margin-inline: auto;
+}
+
+.btn {
+    color: $white;
+    background-color: $red;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1.35rem 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    transition: filter 300ms ease-in-out;
+
+    outline: none;
+    border: none;
+
+    &:hover,
+    &:focus {
+        filter: brightness(1.1);
+    }
+}
+
+.section-title {
+    line-height: 1.3;
+    font-size: 1.75rem;
+
+    @media (min-width: 45em) {
+        font-size: 2.25rem;
+    }
+}
+
+.custom-span {
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+
+    color: $red;
+}
+
+.custom-list {
+    display: grid;
+    gap: 1rem;
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+
+        img {
+            width: 1rem;
+            aspect-ratio: 1;
+        }
+    }
+}
+
+/* ---------- HERO ---------- */
+.hero {
+    padding-block: var(--spacing);
+    background-color: #f4f4f4;
+    overflow: hidden;
+    position: relative;
+
+    &__container {
+        position: relative;
+
+        h1 {
+            line-height: 1.2;
+            margin-top: 1rem;
+            font-size: 2rem;
+            margin-bottom: 1.75rem;
+            max-width: 12ch;
+        }
+
+        p {
+            color: $lightBlue;
+            max-width: 36ch;
+        }
+
+        .image {
+            display: none;
+        }
+
+        @media (min-width: 45em) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .image {
+                display: unset;
+                position: absolute;
+                bottom: calc(-1 * var(--spacing));
+                max-width: 30rem;
+                right: -40%;
+
+                @media (min-width: 820px) {
+                    right: -23%;
+                }
+
+                @media (min-width: 1000px) {
+                    // right: -20%;
+                    max-width: 40rem;
+                }
+
+                @media (min-width: 1200px) {
+                    // right: -20%;
+                    max-width: 50rem;
+                }
+            }
+        }
+    }
+
+    .brands {
+        margin-bottom: var(--spacing);
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 2rem;
+
+        img {
+            max-width: 10rem;
+        }
+
+        @media (min-width: 60em) {
+            img {
+                width: 14rem;
+            }
+        }
+    }
+}
+
+/* ---------- COINTACT ---------- */
+.contact {
+    padding-block: var(--spacing);
+
+    @import "form";
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        article {
+            padding: 2rem;
+            border-radius: 25px;
+
+            max-width: 30rem;
+            margin-inline: auto;
+
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                margin-block: 1.5rem;
+            }
+        }
+
+        .card {
+            background-color: $red;
+            color: $white;
+        }
+
+        .card-dark {
+            background-color: $black;
+            color: $white;
+        }
+    }
+
+    &__container {
+        display: grid;
+        gap: 4rem;
+
+        @media (min-width: 70em) {
+            grid-template-columns: 1.5fr 1fr;
+            align-items: center;
+
+            z-index: 10;
+            position: relative;
+
+            .cards {
+                flex-direction: column;
+                gap: 4rem;
+            }
+        }
+    }
+}
+
+/* ---------- PRODUCTIVITY ---------- */
+.productivity {
+    padding-block: var(--spacing);
+
+    --custom: 1.5rem;
+
+    &__container {
+        display: grid;
+        gap: 4rem;
+
+        .image {
+            img {
+                border-radius: 30px;
+                margin-inline: auto;
+            }
+        }
+
+        .content {
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1.75rem;
+                margin-top: 1rem;
+
+                @media (min-width: 45em) {
+                    font-size: 2rem;
+                    max-width: 15ch;
+                }
+
+                @media (min-width: 60em) {
+                    font-size: 2.25rem;
+                }
+            }
+
+            > p {
+                padding-bottom: var(--custom);
+                font-size: 1.125rem;
+                color: $lightBlue;
+            }
+
+            a {
+                margin-top: 3rem;
+                max-width: 20rem;
+            }
+        }
+
+        @media (min-width: 45em) {
+            --custom: 2rem;
+
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 6rem;
+
+            .image {
+                img {
+                    box-shadow: 20px 20px $lightGray;
+
+                    @media (min-width: 60em) {
+                        box-shadow: 50px 50px $lightGray;
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 70em) {
+            gap: 8rem;
+        }
+    }
+
+    .custom {
+        padding-top: var(--custom);
+        border-top: 1px solid $lightGray;
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+
+        > div {
+            width: 24px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: $red;
+            display: block;
+
+            background-image: url("../images/check-bold.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 50%;
+        }
+
+        > p {
+            font-weight: 700;
+            font-size: 1.155rem;
+            max-width: 24ch;
+        }
+    }
+}
+
+/* ---------- INFOS ---------- */
+.infos {
+    padding-block: var(--spacing);
+
+    .infos__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h2 {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            text-align: center;
+
+            span {
+                display: block;
+            }
+        }
+
+        > p {
+            text-align: center;
+            max-width: 55ch;
+            margin-bottom: 2rem;
+            font-size: 1.125rem;
+            font-weight: 300;
+            color: $lightBlue;
+        }
+
+        a {
+            min-width: 15rem;
+        }
+
+        .infos__cards {
+            width: 100%;
+            max-width: 50rem;
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+            margin-bottom: 3rem;
+
+            > article {
+                text-align: center;
+                padding: 1rem;
+                position: relative;
+
+                h3 {
+                    color: $red;
+                    line-height: 1.2;
+                    font-weight: bold;
+                    font-size: 1.35rem;
+                    margin-bottom: 0.25rem;
+
+                    span {
+                        display: block;
+                    }
+                }
+
+                p {
+                    max-width: 15ch;
+                    color: $lightBlue;
+                    font-weight: 300;
+                    line-height: 1.3;
+                    margin-inline: auto;
+                }
+            }
+
+            @media (min-width: 700px) {
+                article:nth-child(2)::before,
+                article:nth-child(5)::before {
+                    content: "";
+                    position: absolute;
+                    background-color: $lightGray;
+                    width: 1px;
+                    height: 70px;
+                    top: 20%;
+                    left: -1rem;
+                }
+
+                article:nth-child(2)::after,
+                article:nth-child(5)::after {
+                    content: "";
+                    position: absolute;
+                    background-color: $lightGray;
+                    width: 1px;
+                    height: 70px;
+                    top: 20%;
+                    right: -1rem;
+                }
+            }
+        }
+    }
+}
+
+/* ---------- MAKEIT ---------- */
+@import "makeit";
+
+/* ---------- FOOTER ---------- */
+@import "footer";
+
+// Regas
+@media (min-width: 70em) {
+    .hero__container {
+        padding-bottom: calc(1.5 * var(--spacing));
+    }
+
+    .contact__container {
+        margin-top: -10rem;
+    }
+
+    .cards {
+        margin-top: 4rem;
+        gap: 2rem !important;
+    }
+}
+
+/* -------------------------- TKP --------------------------*/
+@import "tkp";

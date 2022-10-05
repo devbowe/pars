@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_196" data-name="Retângulo 196" width="114" height="114" transform="translate(3778 7526)" fill="#f5f5f5"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_72" data-name="Grupo de máscara 72" transform="translate(-3778 -7526)" clip-path="url(#clip-path)">
+    <g id="Draw" transform="translate(3800 7549)">
+      <path id="Caminho_7492" data-name="Caminho 7492" d="M12.011,2.6C3.914,2.6,2,7.458,2,15.555V55.008C2,63.105,4.5,65.9,12.6,65.9H56.028c8.1,0,10.894-2.65,10.894-10.894V14.083c0-8.1-3.091-11.483-11.188-11.483Z" transform="translate(0.503 -0.097)" fill="#261300" fill-rule="evenodd"/>
+      <path id="Caminho_7493" data-name="Caminho 7493" d="M.3,13.413V56.694A12.255,12.255,0,0,0,12.519,69.207H57.861A12.5,12.5,0,0,0,70.374,56.694V13.413A12.5,12.5,0,0,0,57.861.9H12.519A12.255,12.255,0,0,0,.3,13.413ZM56.978,3.844A10.434,10.434,0,0,1,67.43,14V55.517c0,5.594-4.564,10.747-10.158,10.747H13.255A10.305,10.305,0,0,1,3.1,55.958V14.591C3.1,9,7.661,3.844,13.255,3.844Z" transform="translate(-0.3 -0.9)" fill="#ff7c00" fill-rule="evenodd"/>
+      <path id="Caminho_7494" data-name="Caminho 7494" d="M31.072,13.2H24.889c0,2.944-4.416,8.391-5.889,9.569l7.95,15.163H27.1V27.627a2.266,2.266,0,0,1-1.472-2.208,2.355,2.355,0,1,1,4.711,0,2.266,2.266,0,0,1-1.472,2.208V37.932h.147l8.1-15.163C35.341,21.886,31.072,16.733,31.072,13.2Z" transform="translate(8.529 4.907)" fill="#ff7c00" fill-rule="evenodd"/>
+      <path id="Caminho_7495" data-name="Caminho 7495" d="M51.414,13.119c-.294-.147-.589,0-.883.294L32.277,46.389l-17.519-31.5A2.6,2.6,0,0,0,12.4,13.119a2.58,2.58,0,0,0-2.5,2.5,2.332,2.332,0,0,0,.736,1.767c.589.736,21.052,30.768,21.052,30.768h0a.144.144,0,0,0,.147.147c.147,0,.147.147.294.147a1.116,1.116,0,0,0,.589-.294L51.562,14.149A.687.687,0,0,0,51.414,13.119Z" transform="translate(4.233 4.842)" fill="#fee4ca" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

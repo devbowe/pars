@@ -1,0 +1,150 @@
+form {
+    display: grid;
+    gap: 1.25rem;
+
+    label {
+        font-weight: 700;
+
+        > * {
+            margin-top: 0.25rem;
+        }
+    }
+
+    input {
+        font-weight: 400;
+
+        &::placeholder {
+            color: #5f5f5f;
+        }
+    }
+
+    select {
+        min-height: 50px;
+        font-weight: 400;
+    }
+
+    @media (min-width: 45em) {
+        grid-template-columns: 1fr 1fr;
+
+        .select-wrapper {
+            align-self: end;
+        }
+
+        label {
+            align-self: end;
+        }
+
+        .span {
+            grid-column: span 2;
+        }
+
+        button {
+            margin-inline: auto;
+            grid-column: span 2;
+            min-width: 20rem;
+            cursor: pointer;
+        }
+    }
+}
+
+.form {
+    border-radius: 30px;
+    padding: 2rem;
+    background-color: $white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px,
+        rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+
+    h2 {
+        max-width: 20ch;
+        margin-inline: auto;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        color: $red;
+
+        @media (min-width: 45em) {
+            font-size: 1.8rem;
+        }
+    }
+
+    p {
+        font-size: 1.125rem;
+        color: $lightBlue;
+        text-align: center;
+        margin-inline: auto;
+
+        &::after {
+            content: "";
+            width: 60%;
+            margin-inline: auto;
+            height: 1px;
+            background-color: $lightGray;
+            display: block;
+            margin-block: 1.5rem;
+        }
+    }
+}
+
+.select-wrapper {
+    background-color: $white;
+    select {
+        display: block;
+        padding: 0.75rem 1.25rem;
+        border-radius: 9999px;
+        box-shadow: 0px 2px 6px 0 #1312422c;
+
+        outline: none;
+        border: none;
+        width: 100%;
+    }
+
+    &.invalid {
+        select {
+            outline: 2px solid $red;
+        }
+    }
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    justify-content: space-between;
+    padding: 0.75rem 1.25rem;
+    border-radius: 9999px;
+    box-shadow: 0px 2px 6px 0 #1312422c;
+
+    input {
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        flex: 1;
+    }
+
+    &.invalid {
+        outline: 2px solid $red;
+    }
+}
+
+.legal-input {
+    margin-block: 1rem;
+
+    span {
+        font-weight: 400;
+        color: $lightBlue;
+        font-size: 0.85rem;
+    }
+}
+
+select {
+    background-image: url("../images/arrow_down.png");
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    background-size: 10px;
+    appearance: none;
+    background-color: $white;
+}
+
+input,
+select {
+    background-color: $white;
+}

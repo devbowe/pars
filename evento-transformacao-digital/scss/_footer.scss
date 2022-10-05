@@ -1,0 +1,17 @@
+.footer {
+    &__container {
+        padding-block: 1.25rem;
+        display: grid;
+        place-items: center;
+        position: relative;
+        background-color: var(--black);
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media (max-width: 60em) {
+        border-top: 1px solid var(--blue);
+    }
+}

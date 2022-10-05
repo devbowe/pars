@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_162" data-name="Retângulo 162" width="114" height="114" transform="translate(1110 8418)" fill="#f5f5f5"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.399" cy="0.333" r="0.67" gradientTransform="translate(0.011) scale(0.973 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#17232b" stop-opacity="0.851"/>
+      <stop offset="0.767" stop-color="#17232b"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_de_máscara_20" data-name="Grupo de máscara 20" transform="translate(-1110 -8418)" clip-path="url(#clip-path)">
+    <g id="Grupo_1351" data-name="Grupo 1351" transform="translate(1132 8441)">
+      <path id="Caminho_7275" data-name="Caminho 7275" d="M10,10H74.4V72.643H10Z" transform="translate(-7.073 -7.073)" fill="url(#radial-gradient)"/>
+      <path id="Caminho_7276" data-name="Caminho 7276" d="M0,0V68.5H70.254V0ZM2.927,2.927h64.4V65.571H2.927ZM19.466,47.773c-.351,0-.439-.146-.439-.439V15.9c0-.234.088-.381.351-.381H24c.234,0,.293.088.293.351V42.972h12.06c.234,0,.322.088.263.351l-.732,4.157a.415.415,0,0,1-.439.351H19.466ZM41.128,28.833c0-.351,0-1.2-.146-2.839a.336.336,0,0,1,.234-.381,30.79,30.79,0,0,1,10.772-2.02c.234,0,.351.059.351.293V28.1c0,.234-.088.293-.351.293a17.225,17.225,0,0,0-5.591.585V47.451c0,.234-.088.351-.351.351h-4.6c-.234,0-.351-.088-.351-.351V28.833Z" fill="#aed3e9"/>
+    </g>
+  </g>
+</svg>
